@@ -5,9 +5,9 @@ import matplotlib as plt
 import matplotlib.pyplot as plt
 
 
-os.chdir("/Users/saiha/Documents/sharkii")
+os.chdir("Directory/path")
 # Open the capture file
-cap = pyshark.FileCapture('third.pcapng', keep_packets=True)  # Keep packets in memory for iteration
+cap = pyshark.FileCapture('file_name.pcapng', keep_packets=True)  # Keep packets in memory for iteration
 
 # Try reading the first 5 packets
 try:
